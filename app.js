@@ -1,28 +1,28 @@
-var operandoa;
-var operandob;
-var operacion;
+const operandoa;
+const operandob;
+const operacion;
 function init(){
 	//variables de los botones...
-var display = document.getElementById('display');
-var on = document.getElementById('on');
-var signo = document.getElementById('sign');
-var dividido = document.getElementById('dividido');
-var siete = document.getElementById('7');
-var ocho = document.getElementById('8');
-var nueve = document.getElementById('9');
-var por = document.getElementById('por');
-var cuatro = document.getElementById('4');
-var cinco = document.getElementById('5');
-var seis = document.getElementById('6');
-var menos = document.getElementById('menos');
-var uno = document.getElementById('1');
-var dos = document.getElementById('2');
-var tres = document.getElementById('3');
-var cero = document.getElementById('0');
-var punto = document.getElementById('punto');
-var igual = document.getElementById('igual');
-var mas = document.getElementById('mas');
-var sign = document.getElementById('sign');
+const display = document.getElementById('display');
+const on = document.getElementById('on');
+const signo = document.getElementById('sign');
+const dividido = document.getElementById('dividido');
+const siete = document.getElementById('7');
+const ocho = document.getElementById('8');
+const nueve = document.getElementById('9');
+const por = document.getElementById('por');
+const cuatro = document.getElementById('4');
+const cinco = document.getElementById('5');
+const seis = document.getElementById('6');
+const menos = document.getElementById('menos');
+const uno = document.getElementById('1');
+const dos = document.getElementById('2');
+const tres = document.getElementById('3');
+const cero = document.getElementById('0');
+const punto = document.getElementById('punto');
+const igual = document.getElementById('igual');
+const mas = document.getElementById('mas');
+const sign = document.getElementById('sign');
 //eventos
 uno.onclick = function(e){
 	numero("1");
